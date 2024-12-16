@@ -1,7 +1,7 @@
 // More info about enabling, testing, and submitting mods: https://R74ncom.github.io/InfiniteChef-Mods/
 
 // Add a basic ingredient using the 'fruit' ingredient as a base
-addIngredient("apple",{
+addIngredient("Peter_Griffin",{
     color:"#ff1f40", //red
     type:"fruit" //will inherit all properties of the 'fruit' ingredient
 });
