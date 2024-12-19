@@ -1,18 +1,18 @@
 // More info about enabling, testing, and submitting mods: https://R74ncom.github.io/InfiniteChef-Mods/
 
 // Add a basic ingredient using the 'fruit' ingredient as a base
-addIngredient("apple",{
+addIngredient("Pingas",{
     color:"#ff1f40", //red
-    type:"fruit" //will inherit all properties of the 'fruit' ingredient
+    type:"protien" //will inherit all properties of the 'fruit' ingredient
 });
 
 // Add a detailed ingredient with custom Shape and other properties
 // All Shape IDs can be found here: https://R74n.com/shapes/
 // A list of properties can be found at the top of: https://R74n.com/cook/foodData.js
-addIngredient("finished_apple",{ //ID should be lowercase with underscores
+addIngredient("finished_pingas",{ //ID should be lowercase with underscores
     color:"#ff1f40", //red
     innerColor:"#ffeda4", //beige
-    type:"apple", ///type can be any other ingredient
+    type:"pingas", ///type can be any other ingredient
     shape:"fruit_bipod_stem"
 });
 
